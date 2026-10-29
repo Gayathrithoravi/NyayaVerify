@@ -1,0 +1,58 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and build files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+dist/
+build/
+
+# Secrets and local environment variables
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Jupyter and editor files
+.ipynb_checkpoints/
+.vscode/
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Model checkpoints and large generated files
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Frontend dependencies
+frontend/node_modules/
+
+# Local model files and generated checkpoints
+models/**/checkpoint-*/
+models/**/*.pt
+models/**/*.pth
+models/**/*.bin
+models/**/*.safetensors
+
+# Generated datasets and experiment outputs
+evaluation/results/
+experiments/outputs/

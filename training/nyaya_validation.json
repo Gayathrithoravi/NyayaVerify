@@ -1,0 +1,1902 @@
+[
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Douglas Adams is an author who created the book collection called The Salmon of Doubt. ', 'The Salmon of Doubt is about life experiences and technology.', 'All authors are writers.', 'Writers create innovative ideas.', 'Some books that contain innovative ideas are about technology.']\n\nQuestion:\nDouglas Adams created innovative ideas.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Douglas Adams created innovative ideas.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "Douglas Adams created innovative ideas.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['All books written by Cixin Liu have sold more than 1 million copies. ', 'Some books that have won the Hugo Award were written by Cixin Liu.', 'All books about the future are influenced by Isaac Asimov.', 'The book the Three Body Problem has sold more than 1 million copies.', 'The Three Body Problem is about the future.']\n\nQuestion:\nThe Three Body Problem won the Hugo Award.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'The Three Body Problem won the Hugo Award.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is Unknown.",
+      "pancha_avayava": {
+        "pratijna": "The Three Body Problem won the Hugo Award.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as Unknown according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: Unknown.",
+      "label": "Unknown"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['People are either interested in puzzles or bad at chess.', \"If a person is bad at chess, then they don't play a lot of chess.\", 'A person is either a planner or a creative person.', 'Erica is someone who plays a lot of chess.', 'If Erica is neither bad at chess nor creative, then Erica is either someone who plans and is creative, or someone who neither plans nor is creative.']\n\nQuestion:\nIf Erica either plays a lot of chess matches or is creative, then Erica is neither interested in puzzles nor a person who plays a lot of chess matches.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'If Erica either plays a lot of chess matches or is creative, then Erica is neither interested in puzzles nor a person who plays a lot of chess matches.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "If Erica either plays a lot of chess matches or is creative, then Erica is neither interested in puzzles nor a person who plays a lot of chess matches.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['People are either interested in puzzles or bad at chess.', \"If a person is bad at chess, then they don't play a lot of chess.\", 'A person is either a planner or a creative person.', 'Erica is someone who plays a lot of chess.', 'If Erica is neither bad at chess nor creative, then Erica is either someone who plans and is creative, or someone who neither plans nor is creative.']\n\nQuestion:\nIf Erica is either bad at chess or interested in puzzles, then Erica is not a person who plays a lot of chess matches and creative.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'If Erica is either bad at chess or interested in puzzles, then Erica is not a person who plays a lot of chess matches and creative.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is False.",
+      "pancha_avayava": {
+        "pratijna": "If Erica is either bad at chess or interested in puzzles, then Erica is not a person who plays a lot of chess matches and creative.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as False according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: False.",
+      "label": "False"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['All people who regularly drink coffee are dependent on caffeine.', 'People either regularly drink coffee or joke about being addicted to caffeine.', 'No one who jokes about being addicted to caffeine is unaware that caffeine is a drug.', 'Rina is either a student and unaware that caffeine is a drug, or neither a student nor unaware that caffeine is a drug.', 'If Rina is not a person dependent on caffeine and a student, then Rina is either a person dependent on caffeine and a student, or neither a person dependent on caffeine nor a student. ']\n\nQuestion:\nIf Rina is either a person who jokes about being addicted to caffeine and a person who is unaware that caffeine is a drug, or neither a person who jokes about being addicted to caffeine nor a person who is unaware that caffeine is a drug, then Rina jokes about being addicted to caffeine and regularly drinks coffee.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'If Rina is either a person who jokes about being addicted to caffeine and a person who is unaware that caffeine is a drug, or neither a person who jokes about being addicted to caffeine nor a person who is unaware that caffeine is a drug, then Rina jokes about being addicted to caffeine and regularly drinks coffee.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "If Rina is either a person who jokes about being addicted to caffeine and a person who is unaware that caffeine is a drug, or neither a person who jokes about being addicted to caffeine nor a person who is unaware that caffeine is a drug, then Rina jokes about being addicted to caffeine and regularly drinks coffee.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['An Olympian is a person who trains for an Olympic sport and goes to the Olympics.', 'Carlos Reyes trains for an Olympic sport.', 'Carlos Reyes went to the Olympics.', 'Carlos Reyes is a welterweight.', 'Heavy weights are not welterweights.']\n\nQuestion:\nCarlos Reyes is a heavy weight.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Carlos Reyes is a heavy weight.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is False.",
+      "pancha_avayava": {
+        "pratijna": "Carlos Reyes is a heavy weight.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as False according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: False.",
+      "label": "False"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['No low-scoring players are top players in the league.', 'Basketball players are either top players in the league or successfully shoot a high percentage of 3-pointers.', 'All players who successfully shoot a high percentage of 3-pointers are solid at shooting 2-pointers.', 'No players who are solid at shooting 2-pointers are bad at mid-range shots.', 'Candace is either a low-scoring player or successfully shoots a high percentage of 3-pointers.']\n\nQuestion:\nCandace is either a player who successfully shoots a high percentage of 3-pointers or is bad at mid-range shots.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Candace is either a player who successfully shoots a high percentage of 3-pointers or is bad at mid-range shots.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "Candace is either a player who successfully shoots a high percentage of 3-pointers or is bad at mid-range shots.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['All people who attend Renaissance fairs regularly enjoy dressing up in old-fashioned and historical period clothing.', 'If people are fascinated by the history of the Renaissance and other past eras, then they attend Renaissance fairs regularly.', 'People are either fascinated by the history of the Renaissance and other past eras, or are not nostalgic academics who enjoy learning.', 'If people are focused on the future and industry professions, then they are not nostalgic academics who enjoy learning.', 'If people are historical professors who are passionate about their job and subject, then they are nostalgic academics who enjoy learning.', 'If Clyde is not focused on the future and industry professions, then he is neither focused on the future and industry professions nor enjoys dressing up in old-fashioned and historical period clothing.']\n\nQuestion:\nClyde is a history professor who is passionate about his job and subject.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Clyde is a history professor who is passionate about his job and subject.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is False.",
+      "pancha_avayava": {
+        "pratijna": "Clyde is a history professor who is passionate about his job and subject.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as False according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: False.",
+      "label": "False"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Edwin Smith was a New Zealand Rower from Auckland.', 'Edwin Smith was also known as Ted Smith.', 'Edwin Smith went to Rose Road Primary School, located in Grey Lynn.', 'Edwin Smith was a sergeant who served with the New Zealand 24th battalion in Italy and Egypt.', 'Broadway Sheetmetals was a buisness that was ran and owned by Edwin Smith, who was a sheetmetal worker.']\n\nQuestion:\nNo buisness owner has served in Egypt.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'No buisness owner has served in Egypt.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is False.",
+      "pancha_avayava": {
+        "pratijna": "No buisness owner has served in Egypt.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as False according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: False.",
+      "label": "False"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n[\"Phoneix's music is classified under the indie pop genre.\", 'Phoenix is a band from France.', 'French bands write songs in French or in English.', 'Aside from indie pop, pop rock and synth-pop are two other genres of music.', 'Phoneix has no songs in French.']\n\nQuestion:\nPhoenix makes pop rock music.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Phoenix makes pop rock music.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is False.",
+      "pancha_avayava": {
+        "pratijna": "Phoenix makes pop rock music.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as False according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: False.",
+      "label": "False"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['All cancers are malignant tumors.', 'No malignant tumor can be treated at home.', 'All colorectal cancer is cancer.', 'Having a cold can be treated at home.', 'Breast cancer is neither having a cold nor a malignant tumor (exclusive).']\n\nQuestion:\nBreast cancer is colorectal cancer.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Breast cancer is colorectal cancer.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is False.",
+      "pancha_avayava": {
+        "pratijna": "Breast cancer is colorectal cancer.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as False according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: False.",
+      "label": "False"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n[\"The Mona Lisa is one of the world's best-known artworks.\", 'The Mona Lisa is a portrait painted by Leonardo da Vinci.', 'Leonardo da Vinci was a scientist and painter.', 'Painting genres are history, portrait, animal, landscape, and still life.']\n\nQuestion:\nNo world's best-known artworks are portraits.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'No world's best-known artworks are portraits.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is False.",
+      "pancha_avayava": {
+        "pratijna": "No world's best-known artworks are portraits.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as False according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: False.",
+      "label": "False"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Odell is an English surname originating in Odell, Bedfordshire.', \"In some families Odell is spelled O'Dell, in a mistaken Irish adaptation.\", 'Notable people with the surname include Amy Odell, Jack Odell, and Mats Odell.', 'Amy Odell is a British singer-songwriter.', 'Jack Odell is an English toy inventor.']\n\nQuestion:\nAmy Odell is an English toy inventor.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Amy Odell is an English toy inventor.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is Unknown.",
+      "pancha_avayava": {
+        "pratijna": "Amy Odell is an English toy inventor.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as Unknown according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: Unknown.",
+      "label": "Unknown"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['No cookie is healthy.', 'All oreos are cookies.']\n\nQuestion:\nAll cookies are delicious.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'All cookies are delicious.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is Unknown.",
+      "pancha_avayava": {
+        "pratijna": "All cookies are delicious.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as Unknown according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: Unknown.",
+      "label": "Unknown"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Some employees working in business analysis are good at math. ', 'All employees working in business analysis are working in this company. ', 'No employees working in this company are from China. ', 'All employees working in software engineering are from China. ', 'James is working in software engineering. ']\n\nQuestion:\nIf James is not good at math and he is in business analysis, then he is neither working in this company nor working in software engineering.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'If James is not good at math and he is in business analysis, then he is neither working in this company nor working in software engineering.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "If James is not good at math and he is in business analysis, then he is neither working in this company nor working in software engineering.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['UFC Fight Night was a mixed martial arts event and was held in Sweden.', 'At UFC Fight Night, Sadollah was scheduled to fight Musoke.', 'Sadollah fought Akiyama at UFC Fight Night.', 'Musoke fought Yakovlev at UFC Fight Night.', 'Jung was injured at UFC Fight Night.', 'Injured people did not fight at UFC Fight Night.']\n\nQuestion:\nJung did not fight at UFC Fight Night.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Jung did not fight at UFC Fight Night.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "Jung did not fight at UFC Fight Night.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Either block design or event-related design. ', 'All event-related designs are brain image acquisition.', 'All brain image acquisition is preceded by data processing.', 'Nothing preceded by data processing acquires data.', 'Picture memory is either an event-related design and acquiring data or neither an event-related design nor acquiring data.']\n\nQuestion:\nPicture memory is a block design.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Picture memory is a block design.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "Picture memory is a block design.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['If something can go underwater, then it enjoys water.', 'All animals that can swim can go underwater.', 'Either an animal can swim or it can walk.', 'Animals that can walk travel on land.', 'Animals that enjoy water splash water around.', 'Every animal that travels on land enjoys basking in the sun.', 'George splashes water around and can swim.', 'Liam is either an animal that can walk and enjoys water, or is neither an animal that can walk nor enjoys water.']\n\nQuestion:\nGeorge enjoys basking in the sun.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'George enjoys basking in the sun.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is Unknown.",
+      "pancha_avayava": {
+        "pratijna": "George enjoys basking in the sun.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as Unknown according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: Unknown.",
+      "label": "Unknown"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['People are either interested in puzzles or bad at chess.', \"If a person is bad at chess, then they don't play a lot of chess.\", 'A person is either a planner or a creative person.', 'Erica is someone who plays a lot of chess.', 'If Erica is neither bad at chess nor creative, then Erica is either someone who plans and is creative, or someone who neither plans nor is creative.']\n\nQuestion:\nIf Erica plans ahead or is interested in puzzles, then Erica is creative.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'If Erica plans ahead or is interested in puzzles, then Erica is creative.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "If Erica plans ahead or is interested in puzzles, then Erica is creative.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['If you have room for dessert, you have room for broccoli.', \"Everyone at Luis's dinner party has room for dessert, including Luis.\", 'Mauricia does not have room for broccoli.', \"Luis's dinner party is the first ever dinner party that Allison has attended.\", 'Gustave has room for both broccoli and asparagus.', 'Broccoli and asparagus are both vegetables.']\n\nQuestion:\nAllison has room for broccoli.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Allison has room for broccoli.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "Allison has room for broccoli.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['The Blake McFall Company Building is a commercial warehouse listed on the National Register of Historic Places.', 'The Blake McFall Company Building was added to the National Register of Historic Places in 1990.', 'The Emmet Building is a five-story building in Portland, Oregon.', 'The Emmet Building was built in 1915.', 'The Emmet Building is another name for the Blake McFall Company Building.', 'John works at the Emmet Building.']\n\nQuestion:\nThe Blake McFall Company Building is located in Portland, Oregon.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'The Blake McFall Company Building is located in Portland, Oregon.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "The Blake McFall Company Building is located in Portland, Oregon.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['There are two places named Galicia: either in Spain or in Poland.', 'Spain is in Europe.', 'Poland is in Europe.', 'Rochelle lives in Europe.', 'Dominique does not live in Europe.', 'Alfonso lives in Galicia.']\n\nQuestion:\nRochelle lives in Galicia.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Rochelle lives in Galicia.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is Unknown.",
+      "pancha_avayava": {
+        "pratijna": "Rochelle lives in Galicia.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as Unknown according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: Unknown.",
+      "label": "Unknown"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Evangelos Eleftheriou is a Greek electrical engineer.', 'Evangelos Eleftheriou worked for IBM in Zurich.', 'If a company has employees working for them somewhere, then they have an office there.', 'IBM is a company.']\n\nQuestion:\nNo Greeks have worked for IBM.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'No Greeks have worked for IBM.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is False.",
+      "pancha_avayava": {
+        "pratijna": "No Greeks have worked for IBM.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as False according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: False.",
+      "label": "False"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['John will go to the cinema if and only if Jack goes to the cinema today.', 'Jack will go to the cinema if and only if Iron Man is on and the weather is not bad today.', 'Some days in March have bad weather.', 'Iron man is on.', \"It's March now.\"]\n\nQuestion:\nThe weather is good today.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'The weather is good today.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is Unknown.",
+      "pancha_avayava": {
+        "pratijna": "The weather is good today.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as Unknown according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: Unknown.",
+      "label": "Unknown"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Oxford Circus is a road junction connecting Oxford Street and Regent Street.', 'Oxford Street is in London.', 'John Nash designed the construction on Regent Street.', 'John Nash designed Oxford Circus.', 'John Nash is an architect in British.', 'Oxford Circus is the entrance to Oxford Circus tube station which is a part of the Central line in 1900.']\n\nQuestion:\nOxford Circus is in London.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Oxford Circus is in London.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "Oxford Circus is in London.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Either brain reading or brain decoding. ', 'All brain decoding is extracting information from BOLD signals.', 'No extracting information from BOLD signals is without statistical pattern analysis. ', 'Writing a novel is without statistical pattern analysis.', 'If multivoxel (pattern) analysis is without statistical pattern analysis and a brain reading, then multivoxel (pattern) analysis is without statistical pattern analysis and brain decoding.']\n\nQuestion:\nMultivoxel (pattern) analysis is either without statistical pattern analysis or writing a novel.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Multivoxel (pattern) analysis is either without statistical pattern analysis or writing a novel.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is False.",
+      "pancha_avayava": {
+        "pratijna": "Multivoxel (pattern) analysis is either without statistical pattern analysis or writing a novel.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as False according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: False.",
+      "label": "False"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['No buildings in New Haven are higher than 400 meters. ', 'All buildings managed by Yale Housing are in New Haven. ', 'All buildings in Manhattan are higher than 400 meters. ', 'All buildings owned by Bloomberg are in Manhattan. ', 'All buildings with the Bloomberg logo are buildings owned by Bloomberg. ', 'Tower A is neither in New Haven nor in Manhattan.', 'Tower B is a building with the Bloomberg logo and in Manhattan. ']\n\nQuestion:\nTower A is higher than 400 meters.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Tower A is higher than 400 meters.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is Unknown.",
+      "pancha_avayava": {
+        "pratijna": "Tower A is higher than 400 meters.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as Unknown according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: Unknown.",
+      "label": "Unknown"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['No fish are birds.', 'Everything that is an osprey is a bird.', 'If something is a carp, then it is a fish.', 'All goldfish are carp.', 'If Bubbles is either an osprey or a goldfish, then Bubbles is not a fish.']\n\nQuestion:\nBubbles is an Osprey.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Bubbles is an Osprey.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is Unknown.",
+      "pancha_avayava": {
+        "pratijna": "Bubbles is an Osprey.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as Unknown according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: Unknown.",
+      "label": "Unknown"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['All fruits with the color red contain a large amount of vitamin C.', 'All apples are fruits with the color red.', 'All fruits containing a large amount of vitamin C are beneficial to people. ', 'No fruits that are beneficial to people are on a warning list.', 'If K is not beneficial to people and also not an apple, then it is a fruit with the color red.']\n\nQuestion:\nIf K is either on a warning list or with the color red, then it is not beneficial to people and does not contain a large amount of vitamin C.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'If K is either on a warning list or with the color red, then it is not beneficial to people and does not contain a large amount of vitamin C.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is False.",
+      "pancha_avayava": {
+        "pratijna": "If K is either on a warning list or with the color red, then it is not beneficial to people and does not contain a large amount of vitamin C.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as False according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: False.",
+      "label": "False"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['If people practice coding questions, then they are not studying to go to medical school to become a doctor.', 'If people want to work in the software engineering industry, then they practice coding questions.', 'If people enjoy healthcare fields and want to help people with medical issues, then they are studying to go to medical school to become a doctor.', 'If people grew up with parents who worked as doctors, then they enjoy healthcare fields and want to help people with medical issues.', 'If people study hard, then they grew up with parents who worked as doctors.', 'If Robin neither enjoys healthcare fields and wants to help people with medical issues nor grew up with parents who worked as doctors, then Robin is either a person who studies hard or grew up with parents who worked as doctors.']\n\nQuestion:\nRobin is a person who studies hard.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Robin is a person who studies hard.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is Unknown.",
+      "pancha_avayava": {
+        "pratijna": "Robin is a person who studies hard.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as Unknown according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: Unknown.",
+      "label": "Unknown"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['All cancers are malignant tumors.', 'No malignant tumor can be treated at home.', 'All colorectal cancer is cancer.', 'Having a cold can be treated at home.', 'Breast cancer is neither having a cold nor a malignant tumor (exclusive).']\n\nQuestion:\nBreast cancer is not colorectal cancer.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Breast cancer is not colorectal cancer.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "Breast cancer is not colorectal cancer.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['All young working professionals who have regular 9-5 jobs also have pets.', 'Some people who live in Manhattan are young working professionals who have regular 9-5 jobs.', 'All people who have pets are people who have at least one child.', 'People who do not have at least one child are people who own a sports car.', 'Mary either does not own a sports car or, if they do, then they do not have at least one child.']\n\nQuestion:\nIf Mary is a young working professional who has a regular 9-5 job, then Mary does not live in Manhattan.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'If Mary is a young working professional who has a regular 9-5 job, then Mary does not live in Manhattan.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "If Mary is a young working professional who has a regular 9-5 job, then Mary does not live in Manhattan.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Naive cynicism was proposed by Justin Kruger and a colleague.', 'Thomas Gilovich is a colleague of Justin Kruger. ', 'Naive cynicism is a philosophy of mind.']\n\nQuestion:\nThomas Gilovich proposed naive cynicism.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Thomas Gilovich proposed naive cynicism.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is Unknown.",
+      "pancha_avayava": {
+        "pratijna": "Thomas Gilovich proposed naive cynicism.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as Unknown according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: Unknown.",
+      "label": "Unknown"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['All cancers are malignant tumors.', 'No malignant tumor can be treated at home.', 'All colorectal cancer is cancer.', 'Having a cold can be treated at home.', 'Breast cancer is neither having a cold nor a malignant tumor (exclusive).']\n\nQuestion:\nBreast cancer is colorectal cancer and a cancer.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Breast cancer is colorectal cancer and a cancer.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is False.",
+      "pancha_avayava": {
+        "pratijna": "Breast cancer is colorectal cancer and a cancer.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as False according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: False.",
+      "label": "False"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Ableton has an office in Germany.', 'Ableton has an office in the USA.', 'USA and Germany are different countries.', 'Any company that has offices in different countries is a multinational company.', 'Ableton makes music software.']\n\nQuestion:\nAbleton is a multinational company.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Ableton is a multinational company.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "Ableton is a multinational company.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['No low-scoring players are top players in the league.', 'Basketball players are either top players in the league or successfully shoot a high percentage of 3-pointers.', 'All players who successfully shoot a high percentage of 3-pointers are solid at shooting 2-pointers.', 'No players who are solid at shooting 2-pointers are bad at mid-range shots.', 'Candace is either a low-scoring player or successfully shoots a high percentage of 3-pointers.']\n\nQuestion:\nCandace is bad at mid-range shots.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Candace is bad at mid-range shots.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is False.",
+      "pancha_avayava": {
+        "pratijna": "Candace is bad at mid-range shots.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as False according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: False.",
+      "label": "False"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Thomas Barber was an English professional footballer.', 'Thomas Barber played in the Football League for Aston Villa.', 'Thomas Barber played as a half back and inside left.', 'Thomas Barber scored the winning goal in the 1913 FA Cup Final.']\n\nQuestion:\nThomas Barber played as an inside left.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Thomas Barber played as an inside left.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "Thomas Barber played as an inside left.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['All video applications are software.', 'All YouTube-related applications are video applications. ', 'An APP is either related to YouTube or Instagram.', 'All Instagram is entertainment. ', 'All software is programmed. ', 'All entertainments are interesting.', 'If something is interesting, then it is good.', 'TikTok is not good.']\n\nQuestion:\nTiktok is either good or a program.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Tiktok is either good or a program.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "Tiktok is either good or a program.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['All students who attend in person have registered for the conference. ', 'Students either attend the conference in person or remotely. ', 'No students from China attend the conference remotely. ', 'James attends the conference but he does not attend the conference remotely.', 'Jack attends the conference and he is a student from China.']\n\nQuestion:\nJack attends the conference in person.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Jack attends the conference in person.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "Jack attends the conference in person.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['All Republicans are anti-abortion.', 'Either Republicans or Democrats. ', 'No Democrats are conservative.', 'Either conservative or liberal. ', 'A U.S government official is either conservative or a Republican.']\n\nQuestion:\nIf an U.S government official is anti-abortion or a liberal, then a U.S government official is either anti-abortion or a liberal.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'If an U.S government official is anti-abortion or a liberal, then a U.S government official is either anti-abortion or a liberal.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is False.",
+      "pancha_avayava": {
+        "pratijna": "If an U.S government official is anti-abortion or a liberal, then a U.S government official is either anti-abortion or a liberal.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as False according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: False.",
+      "label": "False"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Some monitors equipped in the library are produced by AOC. ', 'All monitors equipped in the library are cheaper than 800 dollars. ', 'All monitors cheaper than 800 dollars are with a resolution of 1080p. ', 'If a monitor has a resolution of 1080p, then it does not support the type-c port. ', 'A-2017 supports the type-c port. ']\n\nQuestion:\nA-2017 is produced by AOC.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'A-2017 is produced by AOC.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is Unknown.",
+      "pancha_avayava": {
+        "pratijna": "A-2017 is produced by AOC.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as Unknown according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: Unknown.",
+      "label": "Unknown"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Roy Richardson was a cricketer for Sint Maartener, a consituent country.', 'Roy Richardson was a right handed batsman and medium pace bowler.', 'Roy Richardson was old when he debuted in cricket.', 'Sherville Huggins dismissed Roy Richardson.']\n\nQuestion:\nThere are no right handed medium pace bowlers playing for Sint Maartener.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'There are no right handed medium pace bowlers playing for Sint Maartener.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is False.",
+      "pancha_avayava": {
+        "pratijna": "There are no right handed medium pace bowlers playing for Sint Maartener.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as False according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: False.",
+      "label": "False"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Everyone that uses a football can throw a football.', 'If someone plays football, then they use a football.', 'Either someone is a football player or a basketball player.', 'Every basketball player is tall.', 'Everyone that can throw a football can throw a football with a spiral.', 'If someone is tall, then they are in shape.', 'If Jack is neither tall nor a basketball player,  then Jack is neither tall nor can throw a football.']\n\nQuestion:\nJack is not in shape.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Jack is not in shape.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is False.",
+      "pancha_avayava": {
+        "pratijna": "Jack is not in shape.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as False according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: False.",
+      "label": "False"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Dagfinn is a given name.', 'Notable people with the given name include Dagfinn Aarskog, Dagfinn Bakke and Dagfinn Dahl. ', 'Dagfinn Aarskog is a Norwegian physician.', 'Dagfinn Dahl is a Norwegian barrister.']\n\nQuestion:\nDagfinn Aarskog is a notable person.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Dagfinn Aarskog is a notable person.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "Dagfinn Aarskog is a notable person.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Boves is a railway station located in France. ', 'The preceding station of Boves is Longueau.', 'The preceding station of Dommartin is Boves.', 'France is a European country.', 'Dommartin is situated on the Paris–Lille railway. ', 'Any two contiguous stations are on the same railway.', 'Boves is served by regional TER Hauts-de-France trains.', 'If A is located in B and B is located in C, then A is located in C.', 'If A precedes B and B preceds C, than A preceds C.']\n\nQuestion:\nLongueau is situated on the Paris–Lille railway.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Longueau is situated on the Paris–Lille railway.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "Longueau is situated on the Paris–Lille railway.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['All men are human.', 'All gentlemen are men.', 'All lawyers are gentlemen.', 'All women are human.', 'No sheep are human.', 'If Mike is not both a human and a sheep, then Mike is either a man or a human.']\n\nQuestion:\nMike is a woman.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Mike is a woman.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is Unknown.",
+      "pancha_avayava": {
+        "pratijna": "Mike is a woman.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as Unknown according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: Unknown.",
+      "label": "Unknown"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['\"Your Woman\" is a song by British one-man band White Town.', '\"Your Woman\" song peaked at No. 1 on the UK Singles Chart.', 'If a song peaked at No.1 at a cetain place, then it was extremely popular.', '\"Your Woman\" also peaked No. 1 in Iceland, Israel and Spain.']\n\nQuestion:\nYour Woman was extremely popular.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Your Woman was extremely popular.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "Your Woman was extremely popular.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['If a class has prerequisites the student must take the prerequisites to take the class.', 'If a class has no prerequisites, then the student can take the class', 'CPSC 201 and CPSC 223 are prerequisites for CPSC 323.', 'Intro Microeconomics is the only prerequisite for Intermediate Microeconomics.', 'Intro Geology has no prerequisites.']\n\nQuestion:\nIf a student took CPSC 201 but did not take CPSC 223, they can take CPSC 323.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'If a student took CPSC 201 but did not take CPSC 223, they can take CPSC 323.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is False.",
+      "pancha_avayava": {
+        "pratijna": "If a student took CPSC 201 but did not take CPSC 223, they can take CPSC 323.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as False according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: False.",
+      "label": "False"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['\"Your Woman\" is a song by British one-man band White Town.', '\"Your Woman\" song peaked at No. 1 on the UK Singles Chart.', 'If a song peaked at No.1 at a cetain place, then it was extremely popular.', '\"Your Woman\" also peaked No. 1 in Iceland, Israel and Spain.']\n\nQuestion:\nWhite Town did not produce any popular song.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'White Town did not produce any popular song.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is False.",
+      "pancha_avayava": {
+        "pratijna": "White Town did not produce any popular song.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as False according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: False.",
+      "label": "False"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['WeTab is a MeeGo-based tablet computer.', 'There is a WeTab product.', 'WeTab was announced by Neofonie.', 'Neofonie is a German producer.', 'Germans speak English or German.']\n\nQuestion:\nThere is a tablet computer that was announced by a German.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'There is a tablet computer that was announced by a German.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "There is a tablet computer that was announced by a German.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['To get a student visa, you must be full-time enrolled in an academic program.', 'Those who are full-time enrolled in an academic program can not work full-time.', 'Everyone who wants to study abroad needs to have a student visa.', 'All PhD graduates can work full time. ', 'If Tom does not want to study abroad, he is full-time enrolled in an educational program.']\n\nQuestion:\nTom is a PhD graduate.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Tom is a PhD graduate.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is False.",
+      "pancha_avayava": {
+        "pratijna": "Tom is a PhD graduate.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as False according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: False.",
+      "label": "False"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['No payment cards issued by Russian banks can be used with ApplePay.', 'All MIR payment cards are issued by Russian banks.', 'Some international payment cards can be used with ApplePay.', 'Social payments in Russia can only be transferred to MIR payment cards.', 'Bank of America payment cards can be used with ApplePay.']\n\nQuestion:\nIf Bank of America payment cards are international or issued by Russian banks, then they can not be used to transfer social payments in Russia.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'If Bank of America payment cards are international or issued by Russian banks, then they can not be used to transfer social payments in Russia.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "If Bank of America payment cards are international or issued by Russian banks, then they can not be used to transfer social payments in Russia.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Either present their work at the conference or provide a tutorial session at the conference. ', 'All who present their work at the conference will attend in person. ', 'All those providing a tutorial session at the conference are invited to join the club. ', 'All who attend the conference in person are provided with souvenirs. ', 'All invited to join the club are provided with delicious meals. ', 'All provided with delicious meals are happy to communicate with each other during the dinner. ', 'All provided with delicious meals are invited to take a photo with the audience. ', 'James does not attend the conference in person and is not provided with souvenirs.']\n\nQuestion:\nJames is invited to take a photo with the audience and is happy to communicate with each other at the dinner.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'James is invited to take a photo with the audience and is happy to communicate with each other at the dinner.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "James is invited to take a photo with the audience and is happy to communicate with each other at the dinner.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Thick as Thieves is a young adult fantasy novel, written by Megan Whalen Turner.', 'Thick as Thieves was published by Greenwillow Books.', 'If a book was published by a company, than the author of that book worked with the company that published the book.', 'The fictional Mede Empire is where Thick as Thieves is set.', 'The Mede Empire plots to swallow up some nearby countries.', 'Attolia and Sounis are countries near the Mede Empire.', 'Thick as Thieves was sold both as a hardcover and an e-book.']\n\nQuestion:\nThick as Thieves is not set in the mede empire.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Thick as Thieves is not set in the mede empire.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is False.",
+      "pancha_avayava": {
+        "pratijna": "Thick as Thieves is not set in the mede empire.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as False according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: False.",
+      "label": "False"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['All proteins are organic compounds.', 'All enzymes are organic compounds.']\n\nQuestion:\nAll enzymes are proteins.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'All enzymes are proteins.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is Unknown.",
+      "pancha_avayava": {
+        "pratijna": "All enzymes are proteins.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as Unknown according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: Unknown.",
+      "label": "Unknown"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['If an animal needs a large territory, then it travels far.', 'Everything that eats a lot needs a large territory.', 'If something is a big animal, then it will eat a lot.', 'All bears are big animals.', 'Larry is a big animal.']\n\nQuestion:\nLarry is a bear.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Larry is a bear.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is Unknown.",
+      "pancha_avayava": {
+        "pratijna": "Larry is a bear.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as Unknown according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: Unknown.",
+      "label": "Unknown"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['To get a student visa, you must be full-time enrolled in an academic program.', 'Those who are full-time enrolled in an academic program can not work full-time.', 'Everyone who wants to study abroad needs to have a student visa.', 'All PhD graduates can work full time. ', 'If Tom does not want to study abroad, he is full-time enrolled in an educational program.']\n\nQuestion:\nTom wants to study abroad.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Tom wants to study abroad.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is Unknown.",
+      "pancha_avayava": {
+        "pratijna": "Tom wants to study abroad.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as Unknown according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: Unknown.",
+      "label": "Unknown"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['No soccer players are professional basketball players.', 'All NBA players are professional basketball players.', 'All defenders are soccer players.', 'All centerback players are defenders.', 'If Stephen Curry is an NBA player or a soccer player, then he is a professional basketball player.']\n\nQuestion:\nStephen Curry is a centerback player.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Stephen Curry is a centerback player.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is False.",
+      "pancha_avayava": {
+        "pratijna": "Stephen Curry is a centerback player.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as False according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: False.",
+      "label": "False"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['A laptop is a computer.', 'You can play games on a computer.', 'A phone is not a computer.']\n\nQuestion:\nYou can play games on a laptop.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'You can play games on a laptop.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "You can play games on a laptop.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['No professional tennis umpires are professional tennis players.', 'If you are a World Tour player, then you are a professional tennis player.', 'All Grand Slam champions are World Tour players.', 'All Grand Slam umpires are professional tennis umpires.', 'Nadal is a World Tour player or a Grand Slam champion']\n\nQuestion:\nNadal is not a Grand Slam umpire.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Nadal is not a Grand Slam umpire.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "Nadal is not a Grand Slam umpire.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Everything is either big or small.', 'All big things are heavy. ', 'All small things are light. ', 'All heavy things are still.', 'All light things are unstable.', 'All unstable things are changing.', 'All unstable things are kinetic. ', 'A bird is not both heavy and still.']\n\nQuestion:\nIf a bird is small or still, then the bird is either kinetic or changing.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'If a bird is small or still, then the bird is either kinetic or changing.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is False.",
+      "pancha_avayava": {
+        "pratijna": "If a bird is small or still, then the bird is either kinetic or changing.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as False according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: False.",
+      "label": "False"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Douglas Adams is an author who created the book collection called The Salmon of Doubt. ', 'The Salmon of Doubt is about life experiences and technology.', 'All authors are writers.', 'Writers create innovative ideas.', 'Some books that contain innovative ideas are about technology.']\n\nQuestion:\nDouglas Adams is a writer.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Douglas Adams is a writer.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "Douglas Adams is a writer.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Koei Tecmo is a Japanese video game and anime holding company.', 'Holding companies hold several companies.', 'Tecmo was disbanded in Japan, while Koei survived, but was renamed.', 'Video game holding companies are holding companies.']\n\nQuestion:\nTecmo holds another company.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Tecmo holds another company.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is Unknown.",
+      "pancha_avayava": {
+        "pratijna": "Tecmo holds another company.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as Unknown according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: Unknown.",
+      "label": "Unknown"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Products are either produced in China or the US. ', 'All produced in China are labeled. ', 'All produced in the US are sold in the US. ', 'If labeled, then the product is cheaper. ', 'All sold in the US are sold in Walmart. ', 'All displayed on the homepage are sold in Walmart. ', 'No products returned by customers are sold in Walmart. ', 'G-910 is either displayed on the homepage or cheaper.']\n\nQuestion:\nG-910 is a product returned by customers or sold in Walmart.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'G-910 is a product returned by customers or sold in Walmart.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "G-910 is a product returned by customers or sold in Walmart.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['All Asians are human. ', 'All Chinese are Asian.', 'A man is either Chinese or British.', 'All British are European. ', 'All Spanish are European. ', 'No Indian is European. ', 'Jessee is either both an Indian and a human, or neither an Indian nor a human.']\n\nQuestion:\nJesse is not Chinese.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Jesse is not Chinese.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is Unknown.",
+      "pancha_avayava": {
+        "pratijna": "Jesse is not Chinese.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as Unknown according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: Unknown.",
+      "label": "Unknown"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['People are either interested in puzzles or bad at chess.', \"If a person is bad at chess, then they don't play a lot of chess.\", 'A person is either a planner or a creative person.', 'Erica is someone who plays a lot of chess.', 'If Erica is neither bad at chess nor creative, then Erica is either someone who plans and is creative, or someone who neither plans nor is creative.']\n\nQuestion:\nIf Erica is interested in puzzles and is creative, then Erica is not creative.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'If Erica is interested in puzzles and is creative, then Erica is not creative.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is False.",
+      "pancha_avayava": {
+        "pratijna": "If Erica is interested in puzzles and is creative, then Erica is not creative.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as False according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: False.",
+      "label": "False"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['The Golden State Warriors are a team from San Francisco.', 'The Golden State Warriors won the NBA finals.', 'All teams attending the NBA finals have more than thirty years of history.', 'Boston Celtics are a team that lost the NBA finals.', 'If a team wins the NBA finals, then they will have more income.', 'If a team wins or loses at the NBA finals, then they are attending the finals.']\n\nQuestion:\nThe Golden State Warriors will have more income for gate receipts.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'The Golden State Warriors will have more income for gate receipts.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "The Golden State Warriors will have more income for gate receipts.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Products are either produced in China or the US. ', 'All produced in China are labeled. ', 'All produced in the US are sold in the US. ', 'If labeled, then the product is cheaper. ', 'All sold in the US are sold in Walmart. ', 'All displayed on the homepage are sold in Walmart. ', 'No products returned by customers are sold in Walmart. ', 'G-910 is either displayed on the homepage or cheaper.']\n\nQuestion:\nG-910 is a product returned by customers.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'G-910 is a product returned by customers.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is False.",
+      "pancha_avayava": {
+        "pratijna": "G-910 is a product returned by customers.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as False according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: False.",
+      "label": "False"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Everyone working at Meta has a high income. ', 'If a person has a high income, then he/she will not take a bus to their destination.', 'People will either take a bus or drive to their destination. ', 'Everyone who has a car will choose to drive to their destination. ', 'No students drive to their destination. ', 'James has a car or works at Meta.']\n\nQuestion:\nJames does not have a high income.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'James does not have a high income.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is Unknown.",
+      "pancha_avayava": {
+        "pratijna": "James does not have a high income.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as Unknown according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: Unknown.",
+      "label": "Unknown"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['The installment sales method is the approach to recognize revenue under the US GAAP.', 'In accrual accounting, revenues are recognized when they are realized.', 'In cash accounting, revenues are recognized when cash is received.', 'The US GAAP is the accounting standard developed and used by the US Securities and Exchange Commission.', 'Sally works for the US Securities and Exchange Commission.']\n\nQuestion:\nSally does not work for a company that uses the GAAP.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Sally does not work for a company that uses the GAAP.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is False.",
+      "pancha_avayava": {
+        "pratijna": "Sally does not work for a company that uses the GAAP.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as False according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: False.",
+      "label": "False"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['All men are human.', 'All gentlemen are men.', 'All lawyers are gentlemen.', 'All women are human.', 'No sheep are human.', 'If Mike is not both a human and a sheep, then Mike is either a man or a human.']\n\nQuestion:\nIf Mike is not both a woman and a lawyer, then Mike is a lawyer.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'If Mike is not both a woman and a lawyer, then Mike is a lawyer.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is False.",
+      "pancha_avayava": {
+        "pratijna": "If Mike is not both a woman and a lawyer, then Mike is a lawyer.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as False according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: False.",
+      "label": "False"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['All Asians are human. ', 'All Chinese are Asian.', 'A man is either Chinese or British.', 'All British are European. ', 'All Spanish are European. ', 'No Indian is European. ', 'Jessee is either both an Indian and a human, or neither an Indian nor a human.']\n\nQuestion:\nIf Jesse is either an Indian or a Spanish, then Jesse is either both British and European, or neither British nor European.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'If Jesse is either an Indian or a Spanish, then Jesse is either both British and European, or neither British nor European.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "If Jesse is either an Indian or a Spanish, then Jesse is either both British and European, or neither British nor European.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Show Your Love is a song recorded by the South Korean boy band BtoB 4u.', 'The lead single of the extended play Inside is Show Your Love.', 'Show Your Love contains a hopeful message.', 'BtoB 4u member Hyunsik wrote Show Your Love.', 'There is a music video for Show Your Love.']\n\nQuestion:\nHyunsik is Korean.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Hyunsik is Korean.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is Unknown.",
+      "pancha_avayava": {
+        "pratijna": "Hyunsik is Korean.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as Unknown according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: Unknown.",
+      "label": "Unknown"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['TS Leda was a good passenger and cargo vessel.', 'TS Leda was the first Norweigian vessel that was built with stabilizers.', 'Stabilizers are mechanical devices that are only on ships that have powerful steam turbine engines.', ' To be a good passenger and cargo vessel, ships must be quiet and good at sea.', 'Some ships that are quiet and good at sea have powerful steam turbine engines.']\n\nQuestion:\nTS Leda was not a Norweigian vessel.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'TS Leda was not a Norweigian vessel.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is False.",
+      "pancha_avayava": {
+        "pratijna": "TS Leda was not a Norweigian vessel.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as False according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: False.",
+      "label": "False"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['All bread is food.', 'Some sandwiches are bread.', 'All food is edible. ', 'No edible things are poisonous.', 'Deodorant is poisonous.']\n\nQuestion:\nIf deodorant is a loaf of bread, then deodorant is not a sandwich.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'If deodorant is a loaf of bread, then deodorant is not a sandwich.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "If deodorant is a loaf of bread, then deodorant is not a sandwich.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['All phones are things.', 'All cellphones are phones. ', 'All iPhones are cellphones. ', 'All engineers are workers.', 'All workers are human. ', 'Jack is either an engineer or a worker.', 'Jack is is either a human or a phone.']\n\nQuestion:\nJack is a thing and an iPhone.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Jack is a thing and an iPhone.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is False.",
+      "pancha_avayava": {
+        "pratijna": "Jack is a thing and an iPhone.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as False according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: False.",
+      "label": "False"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Vic DiCara plays guitar and bass.', 'The only style of music Vic DiCara plays is punk music.', 'Vic DiCara played in the band Inside Out.']\n\nQuestion:\nA musician of Inside Out plays bass.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'A musician of Inside Out plays bass.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "A musician of Inside Out plays bass.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Tipped employees do not get a guaranteed minimum wage.', 'If a person is a white-collar worker, they will get a guaranteed minimum wage (All white-collar workers get a guaranteed minimum wage).', 'All lawyers are white-collar workers.', 'Every advocate is a lawyer.', 'Mary is not a lawyer or a tipped employee.']\n\nQuestion:\nMary is an advocate.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Mary is an advocate.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is False.",
+      "pancha_avayava": {
+        "pratijna": "Mary is an advocate.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as False according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: False.",
+      "label": "False"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Odell is an English surname originating in Odell, Bedfordshire.', \"In some families Odell is spelled O'Dell, in a mistaken Irish adaptation.\", 'Notable people with the surname include Amy Odell, Jack Odell, and Mats Odell.', 'Amy Odell is a British singer-songwriter.', 'Jack Odell is an English toy inventor.']\n\nQuestion:\nOdell is Amy Odell's surname.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Odell is Amy Odell's surname.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "Odell is Amy Odell's surname.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['All Yale dormitories are located on York Street. ', 'All buildings managed by Yale Housing are dormitories. ', 'All buildings operated by Yale Housing staff are managed by Yale Housing. ', 'No buildings open to students are established after 1800. ', 'All buildings located on York Street are open to students. ', 'Harkness is either a building operated by Yale Housing staff or located on York Street. ']\n\nQuestion:\nHarkness is not a Yale dormitory.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Harkness is not a Yale dormitory.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is Unknown.",
+      "pancha_avayava": {
+        "pratijna": "Harkness is not a Yale dormitory.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as Unknown according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: Unknown.",
+      "label": "Unknown"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n[\"Deng Xiaoping served as the paramount leader of the People's Republic of China (PRC). \", 'Deng Xiaoping was praised for his reaffirmation of the reform program in his Southern Tour of 1992 as well as the reversion of Hong Kong to Chinese control in 1997 and the return of Macau in 1999.', \"As the party's Secretary-General under Mao and Vice Premier in he 1950s, Deng Xiaoping presided over the Anti-Rightist Campaign launched by Mao.\", \"Deng Xiaoping became instrumental in China's economic reconstruction following the disastrous Great Leap Forward (1958–1960).\", 'Mao Zedong died in 1976.', \"After Mao Zedong's death, Deng Xiaoping gradually rose to supreme power.\"]\n\nQuestion:\nThe paramount leader of the PRC was also the vice premier.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'The paramount leader of the PRC was also the vice premier.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "The paramount leader of the PRC was also the vice premier.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['The USS Lyon was a US Navy ship involved in WWII.', 'All ships involved in WWII are currently decommissioned or in a museum.']\n\nQuestion:\nThe USS Lyon is decommissioned.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'The USS Lyon is decommissioned.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is Unknown.",
+      "pancha_avayava": {
+        "pratijna": "The USS Lyon is decommissioned.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as Unknown according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: Unknown.",
+      "label": "Unknown"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['No watch that is battery-powered is automatic.', 'All digital watches are battery-powered.', 'Some mechanical watches are automatic.', 'All smart watches are digital.', 'Moonwatch is not a digital watch or an automatic.']\n\nQuestion:\nMoonwatch is a mechanical watch.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Moonwatch is a mechanical watch.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is Unknown.",
+      "pancha_avayava": {
+        "pratijna": "Moonwatch is a mechanical watch.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as Unknown according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: Unknown.",
+      "label": "Unknown"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Ralph Hammerthaler was born in Wasserburg am Inn.', 'Wasserburg am Inn is in Germany.', 'Germany is in Europe.', 'Ralph Hammerthaler is a German writer.', 'Ralph Hammerthaler was born in 1965. ']\n\nQuestion:\nRalph Hammerthaler lives in Germany.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Ralph Hammerthaler lives in Germany.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is Unknown.",
+      "pancha_avayava": {
+        "pratijna": "Ralph Hammerthaler lives in Germany.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as Unknown according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: Unknown.",
+      "label": "Unknown"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['All disposable chopsticks are made from trees.', 'Some chopsticks are eco-friendly.', 'Either disposable chopsticks or reusable chopsticks. ', 'If chopsticks are made from metals, then they are not made from plastics. ', 'All reusable chopsticks are made from metal.', 'Chopsticks at restaurants are either made from metals and made from plastics, or neither made from metals nor made from plastics.']\n\nQuestion:\nIf Chopsticks at restaurants are made from plastics or made from trees, then Chopsticks at restaurants are made from plastics and are eco-friendly.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'If Chopsticks at restaurants are made from plastics or made from trees, then Chopsticks at restaurants are made from plastics and are eco-friendly.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is False.",
+      "pancha_avayava": {
+        "pratijna": "If Chopsticks at restaurants are made from plastics or made from trees, then Chopsticks at restaurants are made from plastics and are eco-friendly.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as False according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: False.",
+      "label": "False"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n[\"The Mona Lisa is one of the world's best-known artworks.\", 'The Mona Lisa is a portrait painted by Leonardo da Vinci.', 'Leonardo da Vinci was a scientist and painter.', 'Painting genres are history, portrait, animal, landscape, and still life.']\n\nQuestion:\nLeonardo da Vinci has artworks in the landscape genre.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Leonardo da Vinci has artworks in the landscape genre.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is Unknown.",
+      "pancha_avayava": {
+        "pratijna": "Leonardo da Vinci has artworks in the landscape genre.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as Unknown according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: Unknown.",
+      "label": "Unknown"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['All people who are respected by others are people who contribute to the country. ', 'If a person is respected by others, then he/she contributes to the country. ', 'All people available to have a visit without any fees are those respected by others. ', 'All Customers who once served in the army are available to have a visit without any fees. ', 'All people who once were sentenced for thief stayed in prison for some time. ', 'All people who once stayed in prison for some time have a bad record in the local state. ', 'James was either once sentenced for thief or stayed in prison for some time. ', 'James is either with a bad record in the local state or respected by others. ']\n\nQuestion:\nJames does not contribute to the country.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'James does not contribute to the country.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is Unknown.",
+      "pancha_avayava": {
+        "pratijna": "James does not contribute to the country.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as Unknown according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: Unknown.",
+      "label": "Unknown"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Adam owns cars.', 'Adam has a favorite car.', \"Among the cars he owns, Adam's favorite car is European.\", 'Adam broke his favorite car.']\n\nQuestion:\nAdam owns a Japanese car.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Adam owns a Japanese car.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is Unknown.",
+      "pancha_avayava": {
+        "pratijna": "Adam owns a Japanese car.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as Unknown according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: Unknown.",
+      "label": "Unknown"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Walter Folger Brown was an American politician and lawyer, and served as the postmaster general.', 'Walter Folger Brown graduated from Harvard University with a Bachelors of Arts.', \"While they were both in Toledo, Walter Folger Brown's father practiced law with Walter Folger Brown.\", 'Katherin Hafer married Walter Folger Brown.']\n\nQuestion:\nWalter Folger Brown was not in Toledo.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Walter Folger Brown was not in Toledo.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is False.",
+      "pancha_avayava": {
+        "pratijna": "Walter Folger Brown was not in Toledo.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as False according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: False.",
+      "label": "False"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Musicians have very busy lives.', 'Singh Kaur is a musician and famous.', 'If a musician is not famous, that musician will not make a lot of money.', 'A musician can be a singer or a writer.']\n\nQuestion:\nSingh Kaur makes a lot of money.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Singh Kaur makes a lot of money.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is Unknown.",
+      "pancha_avayava": {
+        "pratijna": "Singh Kaur makes a lot of money.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as Unknown according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: Unknown.",
+      "label": "Unknown"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['If an animal needs a large territory, then it travels far.', 'Everything that eats a lot needs a large territory.', 'If something is a big animal, then it will eat a lot.', 'All bears are big animals.', 'Larry is a big animal.']\n\nQuestion:\nIf Larry either travels far or needs a large territory, then Larry is a bear.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'If Larry either travels far or needs a large territory, then Larry is a bear.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "If Larry either travels far or needs a large territory, then Larry is a bear.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Rhos Aelwyd F.C. is a Welsh football club.', 'Rhos Aelwyd F.C. is the only club based in Ponciau. ', 'The Premier Division was won in 2005–06 by a team from Ponciau. ', 'The winner of the Premier Division in 2009–10 was promoted back to the Cymru Alliance.', 'The Premier Division in 2009–10 was won by the same team that won in 2005-06. ']\n\nQuestion:\nRhos Aelwyd F.C. was promoted to the Cymru Alliance.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Rhos Aelwyd F.C. was promoted to the Cymru Alliance.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "Rhos Aelwyd F.C. was promoted to the Cymru Alliance.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['No video games released by Nintendo support the PS4 platform.', 'All video games in the Pokemon series are released by Nintendo. ', 'All video games in the FIFA series support the PS4 platform. ', 'All video games supporting users to simulate playing soccer games online are in the FIFA series.', 'The video game named “Be Lionel” is in the Pokemon series or supports users to simulate playing football games online.']\n\nQuestion:\nThe video game named “Be Lionel” is not in the FIFA series or supports the PS4 platform.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'The video game named “Be Lionel” is not in the FIFA series or supports the PS4 platform.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "The video game named “Be Lionel” is not in the FIFA series or supports the PS4 platform.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['All humans eat.', 'If something eats, then it is not a plant.', 'A thing is either plant or animal.', 'All goats are animals.', 'No dirt is an animal.', 'Hulu is a goat or a human.']\n\nQuestion:\nHulu is an animal or dirt.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Hulu is an animal or dirt.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "Hulu is an animal or dirt.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['An Olympian is a person who trains for an Olympic sport and goes to the Olympics.', 'Carlos Reyes trains for an Olympic sport.', 'Carlos Reyes went to the Olympics.', 'Carlos Reyes is a welterweight.', 'Heavy weights are not welterweights.']\n\nQuestion:\nCarlos Reyes is an Olympian.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Carlos Reyes is an Olympian.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "Carlos Reyes is an Olympian.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Diethylcarbamazine is a medication discovered in the year 1947.', 'Diethylcarbamazine can be used to treat river blindness.', 'The only preferred treatment for river blindness is ivermectin.', 'Diethylcarbamazine is not ivermectin.']\n\nQuestion:\nDiethylcarbamazine is used in the treatment of filariasis.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Diethylcarbamazine is used in the treatment of filariasis.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is Unknown.",
+      "pancha_avayava": {
+        "pratijna": "Diethylcarbamazine is used in the treatment of filariasis.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as Unknown according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: Unknown.",
+      "label": "Unknown"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Students either go to the park or go to the movies. ', 'No student who enjoys nature has free time during the weekend. ', 'All students who go to the movies enjoy nature. ', 'All students who do not have class during the weekend have free time during the weekend. ', 'All students not in summer camp do not have class during the weekend. ', 'James does not have class during the weekend.']\n\nQuestion:\nJames goes to the park or is in summer camp.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'James goes to the park or is in summer camp.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "James goes to the park or is in summer camp.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Buisnesses are either sanctioned or unsanctioned.', 'Sanctioned buisnesses are limited.', 'Unsanctioned buisnesses are free.', \"The Crude Oil Data Exchange is a buisness that isn't free.\"]\n\nQuestion:\nCrude Oil Data Exchange is sanctioned.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Crude Oil Data Exchange is sanctioned.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "Crude Oil Data Exchange is sanctioned.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Either block design or event-related design. ', 'All event-related designs are brain image acquisition.', 'All brain image acquisition is preceded by data processing.', 'Nothing preceded by data processing acquires data.', 'Picture memory is either an event-related design and acquiring data or neither an event-related design nor acquiring data.']\n\nQuestion:\nPicture memory is either a block design or acquiring data.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'Picture memory is either a block design or acquiring data.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is True.",
+      "pancha_avayava": {
+        "pratijna": "Picture memory is either a block design or acquiring data.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as True according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: True.",
+      "label": "True"
+    }
+  },
+  {
+    "instruction": "Solve the logical problem using the six Nyaya stages: Samshaya, Pramana, Pancha Avayava, Tarka, Hetvabhasa, and Nirnaya.",
+    "input": "Premises:\n['Something is either an invasive neuroimaging technique or a noninvasive neuroimaging technique. ', 'All noninvasive neuroimaging techniques provide a spatial resolution of brains.', 'If a technique provides a spatial resolution of brains, then it is a measurement of brain activity. ', 'All measurements of brain activity are used by neuroscience researchers.', 'FMRI is either a measurement of brain activity or a noninvasive neuroimaging technique.']\n\nQuestion:\nFMRI is either an invasive neuroimaging technique or is used by neuroscience researchers.",
+    "output": {
+      "samshaya": "Determine whether the conclusion 'FMRI is either an invasive neuroimaging technique or is used by neuroscience researchers.' follows from the given premises.",
+      "pramana": "The available evidence consists of the stated premises. The dataset label for this conclusion is False.",
+      "pancha_avayava": {
+        "pratijna": "FMRI is either an invasive neuroimaging technique or is used by neuroscience researchers.",
+        "hetu": "The conclusion must be evaluated using the relationships provided in the premises.",
+        "udaharana": "The premises provide the general facts or rules needed to evaluate the conclusion.",
+        "upanaya": "Apply the stated facts and rules to the entities in the conclusion.",
+        "nigamana": "The conclusion is classified as False according to the FOLIO example."
+      },
+      "tarka": "Check whether assuming the opposite of the conclusion would contradict the premises.",
+      "hetvabhasa": "Check for unsupported, contradictory, or invalid inferences in the reasoning.",
+      "nirnaya": "Final classification: False.",
+      "label": "False"
+    }
+  }
+]

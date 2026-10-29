@@ -1,0 +1,109 @@
+import json
+from pathlib import Path
+
+OUTPUT_FILE = Path("training/grounded_example.json")
+
+example = {
+    "instruction": (
+        "Solve the logical problem using the six Nyaya stages: "
+        "Samshaya, Pramana, Pancha Avayava, Tarka, "
+        "Hetvabhasa, and Nirnaya."
+    ),
+
+    "input": {
+        "premises": [
+            "All people who regularly drink coffee are dependent on caffeine.",
+            "People either regularly drink coffee or joke about being addicted to caffeine.",
+            "No one who jokes about being addicted to caffeine is unaware that caffeine is a drug.",
+            "Rina is either a student and unaware that caffeine is a drug, or neither a student nor unaware that caffeine is a drug.",
+            "If Rina is not dependent on caffeine and a student, then Rina is either dependent on caffeine and a student, or neither dependent on caffeine nor a student."
+        ],
+
+        "premises_fol": [
+            "∀x (Drinks(x) → Dependent(x))",
+            "∀x (Drinks(x) ⊕ Jokes(x))",
+            "∀x (Jokes(x) → ¬Unaware(x))",
+            "(Student(rina) ∧ Unaware(rina)) ⊕ ¬(Student(rina) ∨ Unaware(rina))",
+            "¬(Dependent(rina) ∧ Student(rina)) → "
+            "(Dependent(rina) ∧ Student(rina)) ⊕ "
+            "¬(Dependent(rina) ∨ Student(rina))"
+        ],
+
+        "question": (
+            "Rina is a person who jokes about being addicted to caffeine "
+            "or unaware that caffeine is a drug."
+        )
+    },
+
+    "output": {
+        "samshaya": (
+            "The question is whether Rina satisfies at least one of two "
+            "properties: joking about being addicted to caffeine or being "
+            "unaware that caffeine is a drug."
+        ),
+
+        "pramana": (
+            "The premises state that every person either regularly drinks "
+            "coffee or jokes about being addicted to caffeine. They also "
+            "state that anyone who jokes about being addicted to caffeine "
+            "is not unaware that caffeine is a drug."
+        ),
+
+        "pancha_avayava": {
+            "pratijna": (
+                "Rina is a person who jokes about being addicted to caffeine "
+                "or is unaware that caffeine is a drug."
+            ),
+
+            "hetu": (
+                "If Rina jokes about being addicted to caffeine, the third "
+                "premise implies that Rina is not unaware. The fourth "
+                "premise permits Rina to be either a student and unaware, "
+                "or neither a student nor unaware."
+            ),
+
+            "udaharana": (
+                "The general relationship is that joking about being "
+                "addicted to caffeine implies not being unaware that "
+                "caffeine is a drug."
+            ),
+
+            "upanaya": (
+                "Applying the premises to Rina does not establish that "
+                "Rina jokes about being addicted to caffeine, nor does it "
+                "establish that Rina is unaware."
+            ),
+
+            "nigamana": (
+                "The premises do not establish that Rina jokes about being "
+                "addicted to caffeine or that Rina is unaware."
+            )
+        },
+
+        "tarka": (
+            "Assuming the questioned statement were true would require "
+            "Rina to have at least one of the two properties. However, "
+            "the premises do not provide sufficient support for either "
+            "property."
+        ),
+
+        "hetvabhasa": (
+            "It would be an invalid inference to conclude that Rina jokes "
+            "about being addicted to caffeine merely because every person "
+            "either drinks coffee or jokes. The premises do not establish "
+            "which alternative applies to Rina."
+        ),
+
+        "nirnaya": (
+            "The stated conclusion is not established by the given "
+            "premises."
+        ),
+
+        "label": "Unknown"
+    }
+}
+
+with open(OUTPUT_FILE, "w", encoding="utf-8") as file:
+    json.dump(example, file, indent=2, ensure_ascii=False)
+
+print(f"Created grounded example: {OUTPUT_FILE}")
